@@ -27,9 +27,11 @@ inputs:
     required: false
     default: 'changeme'
   plugins:
-    description: 'Elasticsearch plugin strings'
+    # description: 'Elasticsearch plugin strings'
+    # required: false
+    # default: ''
+    description: 'Plugins that you want to include'
     required: false
-    default: ''
   wait:
     description: 'Number of seconds to wait after launch'
     required: false
